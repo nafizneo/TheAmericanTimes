@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The American Times - Breaking News, U.S. News, World News & Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+    <!-- Top Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="announcement-content">
+            <div class="announcement-left">
+                <span class="announcement-date">
+                    <i class="far fa-calendar"></i>
+                    <span id="current-date"></span>
+                </span>
+                <div class="announcement-links">
+                    <a href="#">e-Edition</a>
+                    <a href="#">Podcasts</a>
+                    <a href="#">Newsletters</a>
+                </div>
+            </div>
+            <div class="announcement-right">
+                <span class="live-badge">Live Updates</span>
+                <div class="social-mini">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="header-inner">
+            <div class="header-left">
+                <button class="menu-toggle" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <a href="#" class="logo">
+                <div class="logo-text">The American <span>Times</span></div>
+                <div class="logo-tagline">Truth • Integrity • Excellence</div>
+            </a>
+            <div class="header-right">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search news...">
+                </div>
+                <a href="#" class="btn btn-outline">Sign In</a>
+                <a href="#" class="btn btn-primary">Subscribe</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+        <div class="nav-inner">
+            <ul class="nav-list">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Science</a></li>
+                <li><a href="#">Health</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Opinion</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-grid">
+            <article class="hero-main">
+                <img src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=750&fit=crop&q=80" alt="Capitol Building at sunset">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <span class="hero-category">Politics</span>
+                    <h1 class="hero-title">Congress Reaches Historic Bipartisan Agreement on Infrastructure Reform</h1>
+                    <p class="hero-excerpt">Landmark legislation promises to rebuild America's roads, bridges, and broadband networks with unprecedented investment in modern infrastructure across all 50 states.</p>
+                    <div class="hero-meta">
+                        <span>By <strong>Sarah Mitchell</strong></span>
+                        <span><i class="far fa-clock"></i> 2 hours ago</span>
+                        <span><i class="far fa-comment"></i> 324 comments</span>
+                    </div>
+                </div>
+            </article>
+            <div class="hero-sidebar">
+                <article class="hero-card">
+                    <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop&q=80" alt="Stock Market Trading Floor">
+                    <div class="hero-card-overlay"></div>
+                    <div class="hero-card-content">
+                        <span class="hero-card-category">Business</span>
+                        <h2 class="hero-card-title">Markets Rally as Tech Giants Report Record Quarterly Earnings</h2>
+                    </div>
+                </article>
+                <article class="hero-card">
+                    <img src="https://images.unsplash.com/photo-1569163139599-0f4517e36f51?w=600&h=400&fit=crop&q=80" alt="White House">
+                    <div class="hero-card-overlay"></div>
+                    <div class="hero-card-content">
+                        <span class="hero-card-category">White House</span>
+                        <h2 class="hero-card-title">Administration Unveils Bold New Climate and Economic Initiative</h2>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-area">
+            <!-- Top Stories Section -->
+            <section class="news-section">
+                <div class="section-header">
+                    <h2 class="section-title">Top Stories</h2>
+                    <a href="#" class="section-link">View All <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="news-grid">
+                    <article class="article-card">
+                        <a href="#">
+                            <div class="article-image">
+                                <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop&q=80" alt="Federal Reserve Building">
+                                <span class="article-category">Economy</span>
+                            </div>
+                            <div class="article-body">
+                                <h3 class="article-title">Federal Reserve Signals Steady Approach to Interest Rate Policy</h3>
+                                <p class="article-excerpt">Central bank officials indicate a patient approach amid economic uncertainty, balancing inflation concerns with growth projections.</p>
+                                <div class="article-meta">
+                                    <span class="article-author">James Wilson</span>
+                                    <span>4 hours ago</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="article-card">
+                        <a href="#">
+                            <div class="article-image">
+                                <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&h=400&fit=crop&q=80" alt="Medical Research Laboratory">
+                                <span class="article-category">Health</span>
+                            </div>
+                            <div class="article-body">
+                                <h3 class="article-title">Breakthrough Medical Research Shows Promise for Cancer Treatment</h3>
+                                <p class="article-excerpt">Scientists announce significant progress in immunotherapy research, offering new hope for patients with previously untreatable forms of cancer.</p>
+                                <div class="article-meta">
+                                    <span class="article-author">Dr. Emily Chen</span>
+                                    <span>5 hours ago</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="article-card">
+                        <a href="#">
+                            <div class="article-image">
+                                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop&q=80" alt="Advanced Technology Server Room">
+                                <span class="article-category">Technology</span>
+                            </div>
+                            <div class="article-body">
+                                <h3 class="article-title">AI Revolution: How Machine Learning is Transforming Industries</h3>
+                                <p class="article-excerpt">From healthcare to finance, artificial intelligence is reshaping how businesses operate and creating new opportunities for innovation.</p>
+                                <div class="article-meta">
+                                    <span class="article-author">Michael Torres</span>
+                                    <span>6 hours ago</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Featured Story -->
+            <article class="featured-story">
+                <div class="featured-inner">
+                    <div class="featured-image">
+                        <img src="https://images.unsplash.com/photo-1582407947304-fd86f3d8c9a8?w=800&h=600&fit=crop&q=80" alt="Supreme Court Building">
+                        <span class="featured-badge"><i class="fas fa-star"></i> Featured</span>
+                    </div>
+                    <div class="featured-content">
+                        <span class="featured-category">Special Report</span>
+                        <h2 class="featured-title">Inside the Supreme Court's Landmark Decision on Digital Privacy Rights</h2>
+                        <p class="featured-excerpt">A comprehensive analysis of the Court's ruling that redefines Fourth Amendment protections in the digital age, with implications for millions of Americans and the technology industry.</p>
+                        <div class="featured-author">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&q=80" alt="Robert Anderson">
+                            <div class="featured-author-info">
+                                <h4>Robert Anderson</h4>
+                                <span>Legal Affairs Correspondent</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Politics Section -->
+            <section class="category-section">
+                <div class="section-header">
+                    <h2 class="section-title">Politics</h2>
+                    <a href="#" class="section-link">View All <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="category-grid">
+                    <article class="category-card">
+                        <a href="#">
+                            <div class="category-card-image">
+                                <img src="https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=400&h=250&fit=crop&q=80" alt="Voting Booth">
+                            </div>
+                            <div class="category-card-body">
+                                <span class="category-card-category">Elections</span>
+                                <h3 class="category-card-title">Primary Season Heats Up as Candidates Debate Key Issues</h3>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="category-card">
+                        <a href="#">
+                            <div class="category-card-image">
+                                <img src="https://images.unsplash.com/photo-1580752300950-d8b4de31e4ce?w=400&h=250&fit=crop&q=80" alt="Supreme Court">
+                            </div>
+                            <div class="category-card-body">
+                                <span class="category-card-category">Judiciary</span>
+                                <h3 class="category-card-title">Supreme Court Takes Up Landmark Privacy Rights Case</h3>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="category-card">
+                        <a href="#">
+                            <div class="category-card-image">
+                                <img src="https://images.unsplash.com/photo-1531206715515-3adae8594f5d?w=400&h=250&fit=crop&q=80" alt="Congress Session">
+                            </div>
+                            <div class="category-card-body">
+                                <span class="category-card-category">Capitol Hill</span>
+                                <h3 class="category-card-title">Senate Committee Launches Investigation into Tech Giants</h3>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="category-card">
+                        <a href="#">
+                            <div class="category-card-image">
+                                <img src="https://images.unsplash.com/photo-1555848962-6e79363ec58f?w=400&h=250&fit=crop&q=80" alt="State Capitol">
+                            </div>
+                            <div class="category-card-body">
+                                <span class="category-card-category">States</span>
+                                <h3 class="category-card-title">State Legislatures Tackle Education Reform Bills</h3>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Opinion Section -->
+            <section class="opinion-section">
+                <div class="section-header">
+                    <h2 class="section-title">Opinion</h2>
+                    <a href="#" class="section-link">View All <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="opinion-grid">
+                    <article class="opinion-card">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&q=80" alt="Robert Anderson" class="opinion-avatar">
+                        <h3 class="opinion-author">Robert Anderson</h3>
+                        <p class="opinion-role">Senior Political Analyst</p>
+                        <h4 class="opinion-title">The Path Forward: Rebuilding American Manufacturing</h4>
+                    </article>
+                    <article class="opinion-card">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&q=80" alt="Patricia Wells" class="opinion-avatar">
+                        <h3 class="opinion-author">Patricia Wells</h3>
+                        <p class="opinion-role">Education Columnist</p>
+                        <h4 class="opinion-title">Education Reform: A Call for Innovative Solutions</h4>
+                    </article>
+                    <article class="opinion-card">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&q=80" alt="David Martinez" class="opinion-avatar">
+                        <h3 class="opinion-author">David Martinez</h3>
+                        <p class="opinion-role">Healthcare Correspondent</p>
+                        <h4 class="opinion-title">Healthcare Access: Bridging the Urban-Rural Divide</h4>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Business Section -->
+            <section class="category-section">
+                <div class="section-header">
+                    <h2 class="section-title">Business</h2>
+                    <a href="#" class="section-link">View All <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="category-grid">
+                    <article class="category-card">
+                        <a href="#">
+                            <div class="category-card-image">
+                                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop&q=80" alt="Stock Market Chart">
+                            </div>
+                            <div class="category-card-body">
+                                <span class="category-card-category">Markets</span>
+                                <h3 class="category-card-title">Wall Street Closes at Record Highs Amid Economic Optimism</h3>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="category-card">
+                        <a href="#">
+                            <div class="category-card-image">
+                                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=250&fit=crop&q=80" alt="Modern Office Building">
+                            </div>
+                            <div class="category-card-body">
+                                <span class="category-card-category">Corporate</span>
+                                <h3 class="category-card-title">Major Corporations Announce Sustainability Initiatives</h3>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="category-card">
+                        <a href="#">
+                            <div class="category-card-image">
+                                <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=400&h=250&fit=crop&q=80" alt="Retail Store">
+                            </div>
+                            <div class="category-card-body">
+                                <span class="category-card-category">Retail</span>
+                                <h3 class="category-card-title">Retail Sales Exceed Expectations in Quarterly Reports</h3>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="category-card">
+                        <a href="#">
+                            <div class="category-card-image">
+                                <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=400&h=250&fit=crop&q=80" alt="Startup Team">
+                            </div>
+                            <div class="category-card-body">
+                                <span class="category-card-category">Startups</span>
+                                <h3 class="category-card-title">Startup Funding Reaches New Heights in Tech Sector</h3>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Video Section -->
+            <section class="video-section">
+                <div class="video-header">
+                    <h2 class="video-title"><i class="fas fa-play-circle"></i> Video</h2>
+                    <a href="#" class="section-link">View All <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="video-grid">
+                    <div class="video-main">
+                        <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&h=450&fit=crop&q=80" alt="News Studio" class="video-main-image">
+                        <div class="video-play"><i class="fas fa-play"></i></div>
+                        <div class="video-info">
+                            <span class="video-category">Documentary</span>
+                            <h3 class="video-headline">Inside the Newsroom: How We Report the Stories That Matter</h3>
+                            <span class="video-duration"><i class="far fa-clock"></i> 15:42</span>
+                        </div>
+                    </div>
+                    <div class="video-sidebar">
+                        <div class="video-item">
+                            <img src="https://images.unsplash.com/photo-1586339949916-3e9457bef6d3?w=200&h=120&fit=crop&q=80" alt="Daily Briefing" class="video-thumb">
+                            <div class="video-item-content">
+                                <h4>Daily Briefing: Top Headlines You Need to Know</h4>
+                                <span>5:32</span>
+                            </div>
+                        </div>
+                        <div class="video-item">
+                            <img src="https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=200&h=120&fit=crop&q=80" alt="Market Watch" class="video-thumb">
+                            <div class="video-item-content">
+                                <h4>Market Watch: Weekly Economic Analysis</h4>
+                                <span>8:15</span>
+                            </div>
+                        </div>
+                        <div class="video-item">
+                            <img src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=200&h=120&fit=crop&q=80" alt="Policy Deep Dive" class="video-thumb">
+                            <div class="video-item-content">
+                                <h4>Policy Deep Dive: Understanding New Legislation</h4>
+                                <span>12:47</span>
+                            </div>
+                        </div>
+                        <div class="video-item">
+                            <img src="https://images.unsplash.com/photo-1505373879784-262c56f87859?w=200&h=120&fit=crop&q=80" alt="Global Perspectives" class="video-thumb">
+                            <div class="video-item-content">
+                                <h4>Global Perspectives: International Affairs Update</h4>
+                                <span>7:23</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- World News Section -->
+            <section class="category-section">
+                <div class="section-header">
+                    <h2 class="section-title">World</h2>
+                    <a href="#" class="section-link">View All <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="news-grid">
+                    <article class="article-card">
+                        <a href="#">
+                            <div class="article-image">
+                                <img src="https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?w=600&h=400&fit=crop&q=80" alt="European Parliament">
+                                <span class="article-category">Europe</span>
+                            </div>
+                            <div class="article-body">
+                                <h3 class="article-title">European Leaders Forge New Trade Agreements at Summit</h3>
+                                <p class="article-excerpt">Historic deals expected to boost economic cooperation and strengthen diplomatic ties across the continent.</p>
+                                <div class="article-meta">
+                                    <span class="article-author">Anna Schmidt</span>
+                                    <span>3 hours ago</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="article-card">
+                        <a href="#">
+                            <div class="article-image">
+                                <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600&h=400&fit=crop&q=80" alt="Tokyo Skyline">
+                                <span class="article-category">Asia Pacific</span>
+                            </div>
+                            <div class="article-body">
+                                <h3 class="article-title">Asia-Pacific Nations Collaborate on Environmental Protection</h3>
+                                <p class="article-excerpt">Regional partners announce joint initiatives to combat climate change and promote sustainable development.</p>
+                                <div class="article-meta">
+                                    <span class="article-author">Kenji Tanaka</span>
+                                    <span>6 hours ago</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="article-card">
+                        <a href="#">
+                            <div class="article-image">
+                                <img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=600&h=400&fit=crop&q=80" alt="Middle East City">
+                                <span class="article-category">Middle East</span>
+                            </div>
+                            <div class="article-body">
+                                <h3 class="article-title">Diplomatic Progress Reported in Regional Peace Talks</h3>
+                                <p class="article-excerpt">Negotiators express cautious optimism as discussions enter crucial phase with international observers present.</p>
+                                <div class="article-meta">
+                                    <span class="article-author">Omar Hassan</span>
+                                    <span>8 hours ago</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </section>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- Trending Widget -->
+            <div class="widget">
+                <div class="widget-header">
+                    <i class="fas fa-fire"></i>
+                    <h3 class="widget-title">Trending Now</h3>
+                </div>
+                <div class="trending-list">
+                    <a href="#" class="trending-item">
+                        <span class="trending-number">1</span>
+                        <div class="trending-content">
+                            <span class="trending-category">Politics</span>
+                            <h4 class="trending-title">Congress Passes Historic Infrastructure Bill</h4>
+                            <span class="trending-meta">2.3K shares</span>
+                        </div>
+                    </a>
+                    <a href="#" class="trending-item">
+                        <span class="trending-number">2</span>
+                        <div class="trending-content">
+                            <span class="trending-category">Business</span>
+                            <h4 class="trending-title">Tech Stocks Surge to New Records</h4>
+                            <span class="trending-meta">1.8K shares</span>
+                        </div>
+                    </a>
+                    <a href="#" class="trending-item">
+                        <span class="trending-number">3</span>
+                        <div class="trending-content">
+                            <span class="trending-category">World</span>
+                            <h4 class="trending-title">Climate Summit Reaches Global Agreement</h4>
+                            <span class="trending-meta">1.5K shares</span>
+                        </div>
+                    </a>
+                    <a href="#" class="trending-item">
+                        <span class="trending-number">4</span>
+                        <div class="trending-content">
+                            <span class="trending-category">Health</span>
+                            <h4 class="trending-title">Healthcare Reform Bill Advances</h4>
+                            <span class="trending-meta">1.2K shares</span>
+                        </div>
+                    </a>
+                    <a href="#" class="trending-item">
+                        <span class="trending-number">5</span>
+                        <div class="trending-content">
+                            <span class="trending-category">Science</span>
+                            <h4 class="trending-title">NASA Announces New Mars Mission Timeline</h4>
+                            <span class="trending-meta">980 shares</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Newsletter Widget -->
+            <div class="widget newsletter-widget">
+                <div class="widget-header">
+                    <i class="fas fa-envelope"></i>
+                    <h3 class="widget-title">Newsletter</h3>
+                </div>
+                <div class="newsletter-body">
+                    <p class="newsletter-text">Get breaking news and exclusive analysis delivered to your inbox every morning.</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Enter your email">
+                        <button type="submit" class="newsletter-btn">Subscribe Now</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Social Widget -->
+            <div class="widget">
+                <div class="widget-header">
+                    <i class="fas fa-users"></i>
+                    <h3 class="widget-title">Follow Us</h3>
+                </div>
+                <div class="social-widget">
+                    <div class="social-stats">
+                        <div class="stat">
+                            <span class="stat-number">2.4M</span>
+                            <span class="stat-label">Followers</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">1.8M</span>
+                            <span class="stat-label">Subscribers</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">950K</span>
+                            <span class="stat-label">Views</span>
+                        </div>
+                    </div>
+                    <div class="social-buttons">
+                        <a href="#" class="social-btn facebook">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                            <small>Like</small>
+                        </a>
+                        <a href="#" class="social-btn twitter">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter</span>
+                            <small>Follow</small>
+                        </a>
+                        <a href="#" class="social-btn youtube">
+                            <i class="fab fa-youtube"></i>
+                            <span>YouTube</span>
+                            <small>Subscribe</small>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <h2 class="footer-logo">The American <span>Times</span></h2>
+                <p class="footer-tagline">Truth • Integrity • Excellence</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>News</h4>
+                    <ul>
+                        <li><a href="#">Politics</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">World</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Science</a></li>
+                        <li><a href="#">Health</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Opinion</h4>
+                    <ul>
+                        <li><a href="#">Editorials</a></li>
+                        <li><a href="#">Columnists</a></li>
+                        <li><a href="#">Letters</a></li>
+                        <li><a href="#">Analysis</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>More</h4>
+                    <ul>
+                        <li><a href="#">Video</a></li>
+                        <li><a href="#">Podcasts</a></li>
+                        <li><a href="#">Photography</a></li>
+                        <li><a href="#">Newsletters</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Advertise</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-links">
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Sitemap</a>
+            </div>
+            <p class="copyright">© 2024 The American Times. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Update current date
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', options);
+    </script>
+</body>
+</html>
